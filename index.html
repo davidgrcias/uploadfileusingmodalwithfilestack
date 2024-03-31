@@ -2,18 +2,10 @@
   <head>
     <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
   </head>
-  <style>
-    button {
-      margin-top: 20px;
-      margin-left: 50px;
-      transform: scale(2);
-    }
-  </style>
   <body>
     <button id="openPickerButton" onclick="client.picker().open();">
       Upload File
     </button>
-
     <script>
       var client = filestack.init("ANZd7Y0tpRKPzeo4vM9svz"); // your own Filestack API key
     </script>
